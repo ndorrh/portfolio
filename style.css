@@ -1,9 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-p{
-    color:red;
+/*Styling the header section (tool bar)*/
+.header{
+margin: 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
