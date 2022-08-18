@@ -25,8 +25,17 @@
   justify-content: space-between;
   align-items: center;
 }
-
-h1 {
+/*styling the social media section*/
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  width: 70%;
+}
+.social-links {
+    flex: 1;
+    flex-basis: 35%;
+    padding: 10px;
 }
 
 span {
