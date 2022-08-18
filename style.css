@@ -33,11 +33,21 @@
   width: 70%;
 }
 .social-links {
-    flex: 1;
-    flex-basis: 35%;
-    padding: 10px;
+  flex: 1;
+  flex-basis: 35%;
+  padding: 10px;
 }
-
-span {
+/*styling the headline introductory message (typography)*/
+.greeting-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+.text-color {
   display: block;
+  color: #36b37e;
 }
