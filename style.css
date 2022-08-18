@@ -10,9 +10,7 @@
 .main-content {
   height: 100vh;
 }
-.headline-box {
-  margin-top: 50px;
-}
+
 /*Styling the header section (tool bar)*/
 .header {
   margin: 30px;
@@ -46,13 +44,9 @@
 }
 /*styling the headline introductory message (typography)*/
 .greeting-text {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
-  color: #172b4d;
 }
 .text-color {
   display: block;
@@ -60,15 +54,18 @@
 }
 /*Styling the supporting Text in the headline section*/
 .supportig-text {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  text-align: center;
   line-height: 28px;
-  color: #172b4d;
   padding: 9px;
   flex: none;
   flex-grow: 0;
   width: 95%;
+}
+.headline-box {
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+  color: #172b4d;
 }
