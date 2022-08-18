@@ -1,0 +1,79 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgrnd-clr {
+  background-color: white;
+}
+
+.main-content {
+  height: 100vh;
+}
+
+/* Styling the header section (tool bar) */
+.header {
+  margin: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling the headline section */
+.head-line {
+  display: flex;
+  background-image: url(images/icons/stripe.png);
+  background-image: url(images/icons/header-illsutration-mobile@3x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  height: 600px;
+  padding: 10px;
+  align-items: center;
+}
+
+/* styling the social media section */
+.social-media {
+  display: flex;
+  width: 70%;
+}
+
+.social-links {
+  flex: 1;
+  flex-basis: 35%;
+}
+
+/* styling the headline introductory message (typography) */
+.greeting-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.text-color {
+  display: block;
+  color: #36b37e;
+}
+
+/* Styling the supporting Text in the headline section */
+.supportig-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 9px;
+  flex: none;
+  flex-grow: 0;
+  width: 95%;
+}
+
+.headline-box {
+  margin-top: 50px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #172b4d;
+}
