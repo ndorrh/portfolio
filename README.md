@@ -1,12 +1,8 @@
-
-# Hello World
+# My Portfolio
 
 > Description the project.
-In this project I created 3 files namely;
--index.html
--style.css
--test.md
-All i did was write "Hello Microverse!" in an h1 tag and gave it my favorite color red. 
+> This project contains my personal information and all the projects I have built using HTML and CSS.
+> In this part of the project I designed the header section(toolbar) and Headline section
 
 ## Built With
 
