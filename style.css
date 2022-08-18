@@ -3,11 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*Styling the header section (tool bar)*/
-.header{
-margin: 30px;
+.header {
+  margin: 30px;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
+}
+/*Styling the headline section*/
+.head-line {
+  display: flex;
+  background-image: url(images/icons/stripe.png);
+  background-image: url(images/icons/header-illsutration-mobile@3x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  height: 600px;
+  padding: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+}
+
+span {
+  display: block;
 }
