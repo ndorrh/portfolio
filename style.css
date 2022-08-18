@@ -1,12 +1,18 @@
+/*General Styling*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.backgrnd-clr{
-    background-color: white;
+.backgrnd-clr {
+  background-color: white;
 }
-
+.main-content {
+  height: 100vh;
+}
+.headline-box {
+  margin-top: 50px;
+}
 /*Styling the header section (tool bar)*/
 .header {
   margin: 30px;
@@ -24,15 +30,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
-  min-height: 630px;
+  height: 600px;
   padding: 10px;
-  justify-content: space-between;
   align-items: center;
 }
 /*styling the social media section*/
 .social-media {
   display: flex;
-  justify-content: space-around;
   width: 70%;
 }
 .social-links {
@@ -63,8 +67,8 @@
   text-align: center;
   line-height: 28px;
   color: #172b4d;
-  padding: 26px;
+  padding: 9px;
   flex: none;
   flex-grow: 0;
-  width: 100%;
+  width: 95%;
 }
