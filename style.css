@@ -76,4 +76,112 @@
   font-style: normal;
   text-align: center;
   color: #172b4d;
+  align-self: center;
+}
+
+/* Styling for Work Section */
+.my-work {
+  display: grid;
+  grid-template-columns: 320px;
+  justify-content: center;
+  margin: 50px;
+}
+
+.work-intro {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  width: 340px;
+  color: #172b4d;
+}
+
+.line {
+  border: solid 2px #36b37e;
+  display: flex;
+  border-radius: 24px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 48px;
+  height: 4px;
+}
+
+.work-intro-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  border: 2px solid #d0d9d4;
+  display: flex;
+  height: 474px;
+  border-radius: 8px;
+  align-items: flex-end;
+  background-color: #d0d9d4;
+  margin-top: 20px;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 316px;
+  height: 222px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.langues-use {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+}
+.language {
+  width: 70px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  text-align:left;
+  flex: 1;
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.ruby {
+  flex: 2;
+}
+
+.project-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.see-project {
+  padding: 12px;
+  gap: 10px;
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border: solid #36b37f;
+  border-radius: 4px;
+  color: #ffffff;
 }
