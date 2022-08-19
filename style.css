@@ -60,7 +60,8 @@
 }
 
 /* Styling the supporting Text in the headline section */
-.supportig-text {
+.supportig-text,
+.about-me-intro {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -68,6 +69,7 @@
   flex: none;
   flex-grow: 0;
   width: 95%;
+  text-align: center;
 }
 
 .headline-box {
@@ -87,7 +89,8 @@
   margin: 50px;
 }
 
-.work-intro {
+.work-intro,
+.about-text {
   font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -157,7 +160,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
-  text-align:left;
+  text-align: left;
   flex: 1;
   background: #ebf0ee;
   border-radius: 4px;
@@ -175,7 +178,8 @@
   text-align: center;
 }
 
-.see-project {
+.see-project,
+.resume {
   padding: 12px;
   gap: 10px;
   width: 122px;
@@ -184,4 +188,80 @@
   border: solid #36b37f;
   border-radius: 4px;
   color: #ffffff;
+}
+
+/* Styling about section */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border: solid red;
+}
+
+.sk-logo .fw-logo .lang-logo {
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  list-style: none;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.frame-works,
+.skills,
+.languages {
+  background: #c1c7d0;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  background: #ebf0ee;
+}
+
+.fwork,
+.skill,
+.lang {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  border-radius: 4px;
+  color: #36b37e;
+  padding: 12px;
+  width: 53px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.java{ flex-basis: 100px;}
+h4 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+.fwork {
+    flex-basis: 30%;
+}
+.term{
+    flex-basis: 150px;
+    text-align: center;
+}
+.skill{
+flex-basis: 80px;
 }
