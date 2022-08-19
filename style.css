@@ -54,12 +54,6 @@ body {
 }
 
 /* styling the headline introductory message (typography) */
-.greeting-text {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
-
 .text-color {
   display: block;
   color: #36b37e;
@@ -80,7 +74,6 @@ body {
 
 .headline-box {
   margin-top: 50px;
-
   text-align: center;
   color: #172b4d;
   align-self: center;
@@ -95,7 +88,8 @@ body {
 }
 
 .work-intro,
-.about-text {
+.about-text,
+.greeting-text {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -139,9 +133,8 @@ body {
   gap: 16px;
   width: 316px;
   height: 222px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
-
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -153,6 +146,7 @@ body {
   list-style: none;
   gap: 4px;
 }
+
 .language {
   width: 70px;
   height: 45px;
@@ -188,7 +182,7 @@ body {
   background: #36b37f;
   border: solid #36b37f;
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* Styling about section */
@@ -203,8 +197,8 @@ body {
 .sk-logo .fw-logo .lang-logo {
   width: 80px;
   height: 80px;
-  background: #ffffff;
-  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  background: #fff;
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
 .list {
@@ -222,7 +216,6 @@ body {
   background: #c1c7d0;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  background: #ebf0ee;
 }
 
 .fwork,
@@ -232,35 +225,37 @@ body {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
-  border-radius: 4px;
   color: #36b37e;
   padding: 12px;
   width: 53px;
   height: 40px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   margin-bottom: 50px;
   text-align: center;
 }
+
 .java {
   flex-basis: 100px;
 }
+
 h4 {
   text-align: center;
-
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   color: #344563;
 }
+
 .fwork {
   flex-basis: 30%;
 }
+
 .term {
   flex-basis: 150px;
   text-align: center;
 }
+
 .skill {
   flex-basis: 80px;
 }
