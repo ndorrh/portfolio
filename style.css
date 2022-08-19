@@ -124,7 +124,7 @@ body {
   height: 474px;
   border-radius: 8px;
   align-items: flex-end;
-  background: #EBF0EE;
+  background: #ebf0ee;
   margin-top: 20px;
 }
 
@@ -223,7 +223,7 @@ body {
 .frame-works,
 .skills,
 .languages {
-  background:#EBF0EE;
+  background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
@@ -255,6 +255,7 @@ h4 {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
+  margin-bottom: 30px;
 }
 
 .fwork {
