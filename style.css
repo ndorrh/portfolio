@@ -72,9 +72,12 @@ body {
   text-align: center;
 }
 
+.about-me-intro {
+  color: #42526e;
+}
+
 .headline-box {
   margin-top: 50px;
-  text-align: center;
   color: #172b4d;
   align-self: center;
 }
@@ -121,7 +124,7 @@ body {
   height: 474px;
   border-radius: 8px;
   align-items: flex-end;
-  background-color: #d0d9d4;
+  background: #EBF0EE;
   margin-top: 20px;
 }
 
@@ -183,6 +186,13 @@ body {
   border: solid #36b37f;
   border-radius: 4px;
   color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.resume {
+  width: 200px;
 }
 
 /* Styling about section */
@@ -213,7 +223,7 @@ body {
 .frame-works,
 .skills,
 .languages {
-  background: #c1c7d0;
+  background:#EBF0EE;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
 }
