@@ -205,7 +205,7 @@ body {
   gap: 20px;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10%;
+  margin: 5%;
   justify-content: center;
 }
 
@@ -241,6 +241,7 @@ body {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
+  width: 327px;
 }
 
 .fwork,
