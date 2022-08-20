@@ -214,7 +214,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin:50px;
+  margin: 50px;
 }
 
 .sk-logo .fw-logo .lang-logo {
@@ -230,7 +230,9 @@ body {
   height: 180px;
   list-style: none;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
+  column-gap: 2%;
+  padding: 25px;
 }
 
 .frame-works,
@@ -250,16 +252,19 @@ body {
   letter-spacing: 0.03em;
   color: #36b37e;
   padding: 12px;
-  width: 53px;
+  width: 20%;
   height: 40px;
   background: #fff;
   border-radius: 8px;
-  margin-bottom: 50px;
   text-align: center;
 }
 
+.lang {
+  align-self: flex-start;
+}
+
 .java {
-  flex-basis: 100px;
+  flex-basis: 90px;
 }
 
 h4 {
@@ -275,12 +280,12 @@ h4 {
 }
 
 .term {
-  flex-basis: 150px;
+  width: 180px;
   text-align: center;
 }
 
 .skill {
-  flex-basis: 80px;
+  flex-basis: 23%;
 }
 
 .logo {
