@@ -347,3 +347,19 @@ textarea {
   outline: none;
   text-align-last: left;
 }
+
+.sbtn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  gap: 10px;
+  width: 140px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  text-align: center;
+  border: solid #36b37f;
+}
