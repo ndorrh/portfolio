@@ -308,3 +308,14 @@ h4 {
   align-content: center;
   gap: 50px;
 }
+
+.contact-message {
+  height: 363px;
+  width: 327px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
