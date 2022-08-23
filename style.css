@@ -46,7 +46,7 @@ body {
 
 .social-links {
   flex: 1;
-  flex-basis: 35%;
+  flex-basis: 30%;
 }
 
 /* styling the headline introductory message (typography) */
@@ -241,7 +241,7 @@ body {
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
-  width: 320px
+  width: 320px;
 }
 
 .fwork,
@@ -298,3 +298,4 @@ h4 {
   height: 28px;
   text-decoration: none;
 }
+
