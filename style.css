@@ -383,3 +383,17 @@ textarea:focus {
 input:valid {
   outline: solid #36b37f 2px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 189px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-left: 5%;
+}
