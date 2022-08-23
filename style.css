@@ -319,3 +319,12 @@ h4 {
   text-align: center;
   color: #172b4d;
 }
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: px;
+  height: 363px;
+  width: 327px;
+  justify-content: flex-start;
+}
