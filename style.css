@@ -371,3 +371,15 @@ textarea {
   margin-right: 20%;
   flex: 1;
 }
+
+input:focus {
+  outline: solid #36b37f 2px;
+}
+
+textarea:focus {
+  outline: solid #36b37f 2px;
+}
+
+input:valid {
+  outline: solid #36b37f 2px;
+}
