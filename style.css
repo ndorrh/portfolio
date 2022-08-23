@@ -10,7 +10,10 @@
 }
 
 /* Typography */
+html,
 body {
+  overflow-x: hidden;
+  max-width: 100%;
   font-style: normal;
   font-family: "Inter", sans-serif;
 }
@@ -303,7 +306,7 @@ h4 {
 .contact {
   display: flex;
   flex-wrap: wrap;
-  margin: 5%;
+  margin: 40px;
   justify-content: center;
   align-content: center;
   gap: 50px;
@@ -311,11 +314,10 @@ h4 {
 
 .contact-message {
   height: 363px;
-  width: 327px;
+  width: 99%;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0;
   text-align: center;
   color: #172b4d;
 }
