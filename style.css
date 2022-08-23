@@ -337,3 +337,13 @@ input {
   border: 1px solid #d0d9d4;
   outline: none;
 }
+
+textarea {
+  height: 114px;
+  width: 327px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #60c095;
+  outline: none;
+  text-align-last: left;
+}
