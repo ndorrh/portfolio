@@ -6,6 +6,7 @@
 1) The header section(toolbar) and Headline section
 2) My Work Section.
 3) The About Me section.
+4) The contact form section
 
 ## Built With
 
