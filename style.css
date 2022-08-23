@@ -299,3 +299,12 @@ h4 {
   text-decoration: none;
 }
 
+/* contact form styling */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
