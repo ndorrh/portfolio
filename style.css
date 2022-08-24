@@ -224,8 +224,9 @@ body {
 }
 
 .about-text-container {
-  background-image: url(images/desktop/about-top.svg);
-  background-image: url(images/desktop/about\ 1.png);
+  background-image:
+    url(images/desktop/about-top.svg),
+    url(images/desktop/about\ 1.png);
   background-repeat: no-repeat;
   background-size: 50px, 50px;
   background-position: right top, bottom left;
@@ -326,6 +327,12 @@ h4 {
   justify-content: center;
   align-content: center;
   gap: 50px;
+  background-image: url(images/illustration-1-contact-form-desktop.svg);
+  background-image: url(images/illustration-2-contact-form-desktop.svg);
+  background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 50px, 70px, 50px;
+  background-position: bottom left, left bottom, bottom right;
 }
 
 .contact-message {
@@ -505,6 +512,19 @@ input:valid {
     margin: 0;
   }
 
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 8%;
+    justify-content: flex-start;
+  }
+
   /* Styling about section for desktop view */
   .about-text-container {
     background-image: url(images/desktop/about-top.svg);
@@ -552,17 +572,19 @@ input:valid {
   }
 
   .about-text-container {
-    background-image: url(images/desktop/about-top.svg);
-    background-image: url(images/desktop/about\ 1.png);
+    background-image:
+      url(images/desktop/about-top.svg),
+      url(images/desktop/about\ 1.png);
     background-repeat: no-repeat;
     background-size: 400px, 300;
     background-position: right top, bottom left;
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg);
-    background-image: url(images/illustration-2-contact-form-desktop.svg);
-    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
     background-position: bottom left, left bottom, bottom right;
@@ -665,9 +687,10 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg);
-    background-image: url(images/illustration-2-contact-form-desktop.svg);
-    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
     background-position: bottom left, left bottom, bottom right;
@@ -709,9 +732,10 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg);
-    background-image: url(images/illustration-2-contact-form-desktop.svg);
-    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
     background-position: bottom left, left bottom, bottom right;
@@ -757,9 +781,10 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg);
-    background-image: url(images/illustration-2-contact-form-desktop.svg);
-    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
     background-position: bottom left, left bottom, bottom right;
@@ -805,9 +830,10 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg);
-    background-image: url(images/illustration-2-contact-form-desktop.svg);
-    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
     background-position: bottom left, left bottom, bottom right;
