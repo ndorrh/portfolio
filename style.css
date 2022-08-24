@@ -16,10 +16,10 @@ body {
   max-width: 100%;
   font-style: normal;
   font-family: "Inter", sans-serif;
-  height: 3846px;
 }
 
-.navlist,.Al {
+.navlist,
+.Al {
   display: none;
 }
 /* Styling the header section (tool bar) */
@@ -43,7 +43,7 @@ body {
   height: 600px;
   padding: 10px;
   align-items: center;
-  gap:5%;
+  gap: 5%;
 }
 
 /* styling the social media section */
@@ -54,7 +54,7 @@ body {
 
 .social-links {
   flex: 1;
-  flex-basis:content;
+  flex-basis: content;
 }
 
 /* styling the headline introductory message (typography) */
@@ -418,11 +418,16 @@ input:valid {
 /* Styling Header and Headline section */
 @media screen and (min-width: 768px) {
   .hamburger-menu,
-  .logo,.break, .ma,.wb,.line,.email {
+  .logo,
+  .break,
+  .ma,
+  .wb,
+  .line,
+  .email {
     display: none;
   }
 
-  .Al{
+  .Al {
     display: inline;
   }
 
@@ -448,7 +453,6 @@ input:valid {
     height: 700px;
     padding: 10px;
     width: 100%;
-    border: solid red;
   }
 
   .supportig-text,
@@ -464,63 +468,98 @@ input:valid {
   }
 
   .social-media {
-  width: 23%;
-}
+    width: 23%;
+  }
 
-.social-links {
-  flex-basis:content;
-}
+  .social-links {
+    flex-basis: content;
+  }
 
-/* Styling work section for desktop view */
-.my-work {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 320));
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
-  border: solid green;
-}
+  /* Styling work section for desktop view */
+  .my-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    justify-content: center;
+    gap: 20px;
+  }
 
-.work {
-  width: 100%;
-  margin: 0;
-}
+  .work {
+    width: 100%;
+    margin: 0;
+  }
+  /* Styling about section for desktop view */
+  .about-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 4.6%;
+  }
 
-.about-text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 4.6%;
-}
-
-.work-intro, .about-text, .greeting-text {
+  .work-intro,
+  .about-text,
+  .greeting-text {
     width: 500px;
+  }
+
+  .about-me {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 350px;
+  }
 }
 
-}
-
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .contact {
-  
-}
+    margin-left: 8%;
+    justify-content: flex-start;
+  }
+  /* Styling contact section for desktop view */
+  .contact-message {
+    width: 40%;
+    height: 256px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
 
-.contact-message {
-  width: 40%;
-  height: 256px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 30px;
-  
-}
+  .btn {
+    margin-left: 0;
+    margin-right: 57%;
+  }
+  .footer {
+    border-top: solid 1px #dfe1e6;
+    margin: 0;
+    width: 100%;
+  }
 
-.btn {
-  margin-left: 0;
-  margin-right: 57%;
-}
-.contact-form {
- 
-}
+  .social-media {
+    width: 15%;
+  }
+
+  input {
+    height: 48px;
+    width: 345%;
+  }
+
+  textarea {
+    width: 585px;
+  }
+
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 370));
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
