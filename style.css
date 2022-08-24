@@ -263,7 +263,8 @@ body {
 }
 
 .lang {
-  align-self: flex-start;
+  align-self: center;
+  margin-bottom: 30px;
 }
 
 .java {
