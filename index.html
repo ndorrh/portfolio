@@ -18,15 +18,20 @@
     <header class="header backgrnd-clr">
       <nav class="navbar">
         <a href="index.html" class="logo">Welcome</a>
-        <img src="images/icons/Union.png" alt="hamburger-menu" />
+        <img class="hamburger-menu" src="images/icons/Union.png" alt="hamburger-menu" />
+        <ul class="navlist">
+          <li class="navitem"><a class="navlinks" href="#work">Portfolio</a></li>
+          <li class="navitem"><a class="navlinks" href="#about">About</a></li>
+          <li class="navitem"><a class="navlinks" href="#contact">contact</a></li>
+        </ul>
       </nav>
     </header>
     <main class="main-content">
       <!--Headline Section-->
       <section class="head-line backgrnd-clr">
         <h2 class="greeting greeting-text headline-box">
-          Hey there. I’m <br />
-          Mariane
+          Hey there. I’m <br class="break" />
+          <span class="ma">Mariane</span>  <span class="Al">Alex</span>
           <span class="text-color">I’m a software developer</span>
         </h2>
         <p class="supportig-text headline-box">
@@ -57,7 +62,7 @@
       </section>
 
       <!--My Work section-->
-      <section class="work">
+      <section class="work" id="work">
         <div class="work-intro-container">
           <h2 class="work-intro">My Recent <br />Works</h2>
           <span class="line"></span>
@@ -156,7 +161,7 @@
       </section>
 
       <!--About me section-->
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-text-container">
           <h2 class="about-text">About me</h2>
           <p class="about-me-intro">
@@ -212,7 +217,7 @@
         </div>
       </section>
       <!--Contact form-->
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="contact-message">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
