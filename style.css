@@ -582,11 +582,11 @@ input:valid {
 
   input {
     height: 48px;
-    width: 345%;
+    width: 300%;
   }
 
   textarea {
-    width: 585px;
+    width: 510px;
   }
 
   .my-work {
