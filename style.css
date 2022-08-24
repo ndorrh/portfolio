@@ -42,6 +42,7 @@ body {
   height: 600px;
   padding: 10px;
   align-items: center;
+  gap:5%;
 }
 
 /* styling the social media section */
@@ -52,7 +53,7 @@ body {
 
 .social-links {
   flex: 1;
-  flex-basis: 30%;
+  flex-basis:content;
 }
 
 /* styling the headline introductory message (typography) */
@@ -424,7 +425,7 @@ input:valid {
   .Al{
     display: inline;
   }
-  
+
   .navlist {
     display: flex;
     justify-content: center;
@@ -437,7 +438,6 @@ input:valid {
     text-decoration: none;
   }
   .head-line {
-    display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(images/desktop/Group\ 35.svg);
@@ -454,7 +454,7 @@ input:valid {
   .supportig-text,
   .about-me-intro {
     padding: 9px;
-    width: 95%;
+    width: 65.8%;
     text-align: center;
   }
 
@@ -462,4 +462,29 @@ input:valid {
     text-align: center;
     width: 100%;
   }
+
+  .social-media {
+  width: 23%;
+}
+
+.social-links {
+  flex-basis:content;
+}
+
+/* Styling work section for desktop view */
+.my-work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  border: solid green;
+}
+
+.work {
+  width: 100%;
+  margin: 0;
+}
+
+
 }
