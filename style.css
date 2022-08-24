@@ -595,3 +595,111 @@ input:valid {
     margin-right: 10px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 400px;
+  }
+
+  input {
+    height: 48px;
+    width: 410%;
+  }
+
+  textarea {
+    width: 700px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 500px;
+  }
+
+  input {
+    height: 48px;
+    width: 500%;
+  }
+
+  textarea {
+    width: 860px;
+  }
+
+  .contact-message {
+    width: 60%;
+  }
+  .head-line {
+    height: 1100px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 2080px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 600px;
+  }
+
+  input {
+    height: 48px;
+    width: 588%;
+  }
+
+  textarea {
+    width: 998px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+  .head-line {
+    height: 1500px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+  }
+}
