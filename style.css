@@ -619,6 +619,19 @@ input:valid {
   .contact-message {
     width: 40%;
   }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1680px) {
@@ -634,15 +647,15 @@ input:valid {
 
   input {
     height: 48px;
-    width: 500%;
+    width: 410%;
   }
 
   textarea {
-    width: 860px;
+    width: 700px;
   }
 
   .contact-message {
-    width: 60%;
+    width: 50%;
   }
   .head-line {
     height: 1100px;
@@ -660,6 +673,8 @@ input:valid {
     display: flex;
     flex-direction: column;
   }
+
+  
 
 }
 
@@ -688,6 +703,47 @@ input:valid {
   }
   .head-line {
     height: 1500px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 2080px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 700px;
+  }
+
+  input {
+    height: 48px;
+    width: 710%;
+  }
+
+  textarea {
+    width: 1210px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+  .head-line {
+    height: 1900px;
   }
 
   .fwork,
