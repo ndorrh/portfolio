@@ -364,6 +364,17 @@ textarea {
   margin-left: 12%;
 }
 
+.address-style {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
 .sbtn {
   font-weight: 500;
   font-size: 17px;
