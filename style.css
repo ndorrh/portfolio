@@ -22,6 +22,7 @@ body {
 .Al {
   display: none;
 }
+
 /* Styling the header section (tool bar) */
 .header {
   margin: 30px;
@@ -163,7 +164,7 @@ body {
 .disable {
   border: none;
   border-radius: 50%;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .language {
@@ -223,6 +224,9 @@ body {
 }
 
 .about-text-container {
+  background-image: url(images/desktop/about-top.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -452,6 +456,7 @@ input:valid {
   .navlinks {
     text-decoration: none;
   }
+
   .head-line {
     justify-content: center;
     align-items: center;
@@ -497,11 +502,12 @@ input:valid {
     width: 100%;
     margin: 0;
   }
+
   /* Styling about section for desktop view */
   .about-text-container {
     background-image: url(images/desktop/about-top.svg);
-    background-repeat:no-repeat;
-    background-size:contain ;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -545,6 +551,7 @@ input:valid {
     background-size: cover;
     height: 960px;
   }
+
   /* Styling contact section for desktop view */
   .contact-message {
     width: 40%;
@@ -562,6 +569,7 @@ input:valid {
     margin-left: 0;
     margin-right: 57%;
   }
+
   .footer {
     border-top: solid 1px #dfe1e6;
     margin: 0;
