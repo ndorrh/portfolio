@@ -225,8 +225,10 @@ body {
 
 .about-text-container {
   background-image: url(images/desktop/about-top.svg);
+  background-image: url(images/desktop/about\ 1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 50px, 50px;
+  background-position: right top, bottom left;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -506,8 +508,10 @@ input:valid {
   /* Styling about section for desktop view */
   .about-text-container {
     background-image: url(images/desktop/about-top.svg);
+    background-image: url(images/desktop/about\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 400px, 100px;
+    background-position: right top, bottom left;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -539,17 +543,39 @@ input:valid {
 }
 
 @media only screen and (min-width: 1024px) {
-  .contact {
-    margin-left: 8%;
-    justify-content: flex-start;
-  }
-
   .head-line {
     background-image: url(images/desktop/Group\ 35.svg);
     background-image: url(images/desktop/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 960px;
+  }
+
+  .about-text-container {
+    background-image: url(images/desktop/about-top.svg);
+    background-image: url(images/desktop/about\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 400px, 300;
+    background-position: right top, bottom left;
+  }
+
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 8%;
+    justify-content: flex-start;
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 300px;
   }
 
   /* Styling contact section for desktop view */
@@ -586,7 +612,7 @@ input:valid {
   }
 
   textarea {
-    width: 510px;
+    width: 520px;
   }
 
   .my-work {
@@ -596,7 +622,7 @@ input:valid {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1280px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
   }
@@ -605,6 +631,48 @@ input:valid {
   .skills,
   .languages {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    height: 48px;
+    width: 410%;
+  }
+
+  textarea {
+    width: 700px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+
+  .head-line {
+    height: 1000px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  }
+
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
   }
 
   input {
@@ -631,6 +699,7 @@ input:valid {
   .frame-works {
     display: flex;
     flex-direction: column;
+    width: 400px;
   }
 }
 
@@ -639,10 +708,15 @@ input:valid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
   }
 
-  .frame-works,
-  .skills,
-  .languages {
-    width: 500px;
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
   }
 
   input {
@@ -657,6 +731,7 @@ input:valid {
   .contact-message {
     width: 50%;
   }
+
   .head-line {
     height: 1100px;
   }
@@ -672,10 +747,8 @@ input:valid {
   .frame-works {
     display: flex;
     flex-direction: column;
+    width: 500px;
   }
-
-  
-
 }
 
 @media only screen and (min-width: 2080px) {
@@ -683,10 +756,15 @@ input:valid {
     grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
   }
 
-  .frame-works,
-  .skills,
-  .languages {
-    width: 600px;
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
   }
 
   input {
@@ -701,6 +779,7 @@ input:valid {
   .contact-message {
     width: 40%;
   }
+
   .head-line {
     height: 1500px;
   }
@@ -716,18 +795,24 @@ input:valid {
   .frame-works {
     display: flex;
     flex-direction: column;
+    width: 600px;
   }
 }
 
-@media only screen and (min-width: 2080px) {
+@media only screen and (min-width: 2560px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
   }
 
-  .frame-works,
-  .skills,
-  .languages {
-    width: 700px;
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
   }
 
   input {
@@ -742,6 +827,7 @@ input:valid {
   .contact-message {
     width: 40%;
   }
+
   .head-line {
     height: 1900px;
   }
@@ -757,5 +843,6 @@ input:valid {
   .frame-works {
     display: flex;
     flex-direction: column;
+    width: 700px;
   }
 }
