@@ -87,7 +87,7 @@ body {
 /* Styling for Work Section */
 .my-work {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
   justify-content: center;
   gap: 20px;
   margin: px;
@@ -418,7 +418,7 @@ input:valid {
 /* Styling Header and Headline section */
 @media screen and (min-width: 768px) {
   .hamburger-menu,
-  .logo,.break, .ma {
+  .logo,.break, .ma,.wb,.line {
     display: none;
   }
 
@@ -474,7 +474,7 @@ input:valid {
 /* Styling work section for desktop view */
 .my-work {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 320));
   justify-content: center;
   gap: 20px;
   padding: 10px;
@@ -486,5 +486,17 @@ input:valid {
   margin: 0;
 }
 
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 4.6%;
+}
 
+.work-intro, .about-text, .greeting-text {
+    width: 500px;
+}
 }
