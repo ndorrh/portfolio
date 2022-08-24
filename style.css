@@ -153,26 +153,26 @@ body {
 .langues-use {
   display: flex;
   list-style: none;
-  gap: 4px;
+  gap: 6px;
 }
 
 .language {
-  width: 70px;
-  height: 45px;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
   text-align: left;
-  flex: 1;
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 8px 12px;
+  flex-basis: content;
+  height: 32px;
+  padding: 5px;
+  padding-top: 10px;
 }
 
 .ruby {
-  flex: 2;
+  flex-basis: content;
 }
 
 .project-name {
@@ -216,8 +216,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  margin: 50px;
+  gap: 10px;
+  margin: 4.6%;
 }
 
 .sk-logo .fw-logo .lang-logo {
@@ -234,8 +234,8 @@ body {
   list-style: none;
   align-items: flex-end;
   justify-content: center;
-  column-gap: 2%;
-  padding: 25px;
+  gap: 2%;
+  padding-bottom: 25px;
 }
 
 .frame-works,
@@ -256,7 +256,6 @@ body {
   letter-spacing: 0.03em;
   color: #36b37e;
   padding: 12px;
-  width: 20%;
   height: 40px;
   background: #fff;
   border-radius: 8px;
@@ -268,7 +267,7 @@ body {
 }
 
 .java {
-  flex-basis: 90px;
+  flex-basis: content;
 }
 
 h4 {
@@ -280,16 +279,16 @@ h4 {
 }
 
 .fwork {
-  flex-basis: 30%;
+  flex-basis: content;
 }
 
 .term {
-  width: 180px;
+  flex-basis: content;
   text-align: center;
 }
 
 .skill {
-  flex-basis: 23%;
+  flex-basis: content;
 }
 
 .logo {
