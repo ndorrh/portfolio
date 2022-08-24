@@ -306,14 +306,13 @@ h4 {
 .contact {
   display: flex;
   flex-wrap: wrap;
-  margin: 40px;
+  margin: 6%;
   justify-content: center;
   align-content: center;
   gap: 50px;
 }
 
 .contact-message {
-  height: 363px;
   width: 99%;
   font-size: 40px;
   font-weight: 700;
