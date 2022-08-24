@@ -3,9 +3,11 @@
 > Description the project.
 > This project contains my personal information and all the projects I have built using HTML and CSS.
 > In this part of the project I designed:
-1) The header section(toolbar) and Headline section
-2) My Work Section.
-3) The About Me section.
+
+1. The header section(toolbar) and Headline section
+2. My Work Section.
+3. The About Me section.
+4. The contact form section
 
 ## Built With
 
