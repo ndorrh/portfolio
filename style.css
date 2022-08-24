@@ -18,6 +18,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.navlist,.Al {
+  display: none;
+}
 /* Styling the header section (tool bar) */
 .header {
   margin: 30px;
@@ -76,7 +79,6 @@ body {
 }
 
 .headline-box {
-  margin-top: 50px;
   color: #172b4d;
   align-self: center;
 }
@@ -408,4 +410,56 @@ textarea:focus {
 
 input:valid {
   outline: solid #36b37f 2px;
+}
+
+/* Desktop version and media queries */
+
+/* Styling Header and Headline section */
+@media screen and (min-width: 768px) {
+  .hamburger-menu,
+  .logo,.break, .ma {
+    display: none;
+  }
+
+  .Al{
+    display: inline;
+  }
+  
+  .navlist {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+    list-style: none;
+  }
+
+  .navlinks {
+    text-decoration: none;
+  }
+  .head-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/desktop/Group\ 35.svg);
+    background-image: url(images/desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    height: 700px;
+    padding: 10px;
+    width: 100%;
+    border: solid red;
+  }
+
+  .supportig-text,
+  .about-me-intro {
+    padding: 9px;
+    width: 95%;
+    text-align: center;
+  }
+
+  .greeting-text {
+    text-align: center;
+    width: 100%;
+  }
 }
