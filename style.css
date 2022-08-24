@@ -16,6 +16,7 @@ body {
   max-width: 100%;
   font-style: normal;
   font-family: "Inter", sans-serif;
+  height: 3846px;
 }
 
 .navlist,.Al {
@@ -327,7 +328,6 @@ h4 {
 .contact-form {
   display: flex;
   flex-wrap: wrap;
-  gap: px;
   height: 363px;
   width: 327px;
   justify-content: flex-start;
@@ -418,7 +418,7 @@ input:valid {
 /* Styling Header and Headline section */
 @media screen and (min-width: 768px) {
   .hamburger-menu,
-  .logo,.break, .ma,.wb,.line {
+  .logo,.break, .ma,.wb,.line,.email {
     display: none;
   }
 
@@ -498,5 +498,29 @@ input:valid {
 
 .work-intro, .about-text, .greeting-text {
     width: 500px;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+  .contact {
+  
+}
+
+.contact-message {
+  width: 40%;
+  height: 256px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  
+}
+
+.btn {
+  margin-left: 0;
+  margin-right: 57%;
+}
+.contact-form {
+ 
 }
 }
