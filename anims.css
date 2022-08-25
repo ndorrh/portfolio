@@ -1,0 +1,6 @@
+.see-project,
+.resume,
+.sbtn {
+  transition-property: box-shadow, background-color, border-radius, border;
+  transition-duration: 3s, 3s, 3s, 3s;
+}
