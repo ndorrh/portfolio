@@ -13,3 +13,27 @@
   border-radius: solid #1e488f 4px;
   border: none;
 }
+
+@media screen and (min-width: 768px) {
+  .head-line,
+  .about-tex-container {
+    overflow: hidden;
+  }
+  p {
+    animation-duration: 9s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+}
