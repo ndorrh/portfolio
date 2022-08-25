@@ -18,6 +18,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.navlist,
+.Al {
+  display: none;
+}
+
 /* Styling the header section (tool bar) */
 .header {
   margin: 30px;
@@ -39,6 +44,7 @@ body {
   height: 600px;
   padding: 10px;
   align-items: center;
+  gap: 5%;
 }
 
 /* styling the social media section */
@@ -49,7 +55,7 @@ body {
 
 .social-links {
   flex: 1;
-  flex-basis: 30%;
+  flex-basis: content;
 }
 
 /* styling the headline introductory message (typography) */
@@ -76,7 +82,6 @@ body {
 }
 
 .headline-box {
-  margin-top: 50px;
   color: #172b4d;
   align-self: center;
 }
@@ -84,7 +89,7 @@ body {
 /* Styling for Work Section */
 .my-work {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 320px));
   justify-content: center;
   gap: 20px;
   margin: px;
@@ -156,6 +161,12 @@ body {
   gap: 6px;
 }
 
+.disable {
+  border: none;
+  border-radius: 50%;
+  margin-top: 0;
+}
+
 .language {
   font-weight: 600;
   font-size: 12px;
@@ -213,6 +224,12 @@ body {
 }
 
 .about-text-container {
+  background-image:
+    url(images/desktop/about-top.svg),
+    url(images/desktop/about\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 50px, 50px;
+  background-position: right top, bottom left;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -310,6 +327,12 @@ h4 {
   justify-content: center;
   align-content: center;
   gap: 50px;
+  background-image: url(images/illustration-1-contact-form-desktop.svg);
+  background-image: url(images/illustration-2-contact-form-desktop.svg);
+  background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 50px, 70px, 50px;
+  background-position: bottom left, left bottom, bottom right;
 }
 
 .contact-message {
@@ -324,7 +347,6 @@ h4 {
 .contact-form {
   display: flex;
   flex-wrap: wrap;
-  gap: px;
   height: 363px;
   width: 327px;
   justify-content: flex-start;
@@ -408,4 +430,445 @@ textarea:focus {
 
 input:valid {
   outline: solid #36b37f 2px;
+}
+
+/* Desktop version and media queries */
+
+/* Styling Header and Headline section */
+@media screen and (min-width: 768px) {
+  .hamburger-menu,
+  .logo,
+  .break,
+  .ma,
+  .wb,
+  .line,
+  .email {
+    display: none;
+  }
+
+  .Al {
+    display: inline;
+  }
+
+  .disable {
+    margin-top: 40px;
+  }
+
+  .navlist {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+    list-style: none;
+  }
+
+  .navlinks {
+    text-decoration: none;
+  }
+
+  .head-line {
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/desktop/Group\ 35.svg);
+    background-image: url(images/desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    height: 700px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .supportig-text,
+  .about-me-intro {
+    padding: 9px;
+    width: 65.8%;
+    text-align: center;
+  }
+
+  .greeting-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-media {
+    width: 23%;
+  }
+
+  .social-links {
+    flex-basis: content;
+  }
+
+  /* Styling work section for desktop view */
+  .my-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .work {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact {
+    background-image: url(images/illustration-1-contact-form-desktop.svg);
+    background-image: url(images/illustration-2-contact-form-desktop.svg);
+    background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 8%;
+    justify-content: flex-start;
+  }
+
+  /* Styling about section for desktop view */
+  .about-text-container {
+    background-image: url(images/desktop/about-top.svg);
+    background-image: url(images/desktop/about\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 400px, 100px;
+    background-position: right top, bottom left;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 4.6%;
+  }
+
+  .work-intro,
+  .about-text,
+  .greeting-text {
+    width: 500px;
+  }
+
+  .about-me {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .head-line {
+    background-image: url(images/desktop/Group\ 35.svg);
+    background-image: url(images/desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+  }
+
+  .about-text-container {
+    background-image:
+      url(images/desktop/about-top.svg),
+      url(images/desktop/about\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 400px, 300;
+    background-position: right top, bottom left;
+  }
+
+  .contact {
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 8%;
+    justify-content: flex-start;
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 300px;
+  }
+
+  /* Styling contact section for desktop view */
+  .contact-message {
+    width: 40%;
+    height: 256px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .disable {
+    margin-top: 90px;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-right: 57%;
+  }
+
+  .footer {
+    border-top: solid 1px #dfe1e6;
+    margin: 0;
+    width: 100%;
+  }
+
+  .social-media {
+    width: 15%;
+  }
+
+  input {
+    height: 48px;
+    width: 300%;
+  }
+
+  textarea {
+    width: 520px;
+  }
+
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 370));
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  }
+
+  .frame-works,
+  .skills,
+  .languages {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    height: 48px;
+    width: 410%;
+  }
+
+  textarea {
+    width: 700px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+
+  .head-line {
+    height: 1000px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  }
+
+  .contact {
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  input {
+    height: 48px;
+    width: 410%;
+  }
+
+  textarea {
+    width: 700px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  }
+
+  .contact {
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  input {
+    height: 48px;
+    width: 410%;
+  }
+
+  textarea {
+    width: 700px;
+  }
+
+  .contact-message {
+    width: 50%;
+  }
+
+  .head-line {
+    height: 1100px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 2080px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+  }
+
+  .contact {
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  input {
+    height: 48px;
+    width: 588%;
+  }
+
+  textarea {
+    width: 998px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+
+  .head-line {
+    height: 1500px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .my-work {
+    grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
+  }
+
+  .contact {
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
+      url(images/illustration-2-contact-form-desktop.svg),
+      url(images/contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, 70px, 100px;
+    background-position: bottom left, left bottom, bottom right;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  input {
+    height: 48px;
+    width: 710%;
+  }
+
+  textarea {
+    width: 1210px;
+  }
+
+  .contact-message {
+    width: 40%;
+  }
+
+  .head-line {
+    height: 1900px;
+  }
+
+  .fwork,
+  .skill,
+  .lang {
+    align-self: center;
+  }
+
+  .languages,
+  .skills,
+  .frame-works {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+  }
 }
