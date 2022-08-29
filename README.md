@@ -14,6 +14,9 @@
 - HTML
 - CSS
 
+## Live Demo
+<a href="https://ndorrh.github.io/portfolio/">Live Demo Link</a>
+
 ## Authors
 
 👤 **Ndorrh Oswald Ebu**
