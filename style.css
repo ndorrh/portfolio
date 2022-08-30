@@ -518,7 +518,7 @@ input:valid {
     background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
     margin-left: 8%;
@@ -587,7 +587,7 @@ input:valid {
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
     margin-left: 8%;
@@ -693,7 +693,7 @@ input:valid {
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
   }
@@ -738,7 +738,7 @@ input:valid {
       url(images/contact\form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
   }
@@ -787,7 +787,7 @@ input:valid {
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
   }
@@ -836,7 +836,7 @@ input:valid {
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100px, 70px, 100px;
-    background-position: bottom left, left bottom, bottom right;
+    background-position: 0 100%, 20% 100%, 100% 100%;
     margin: 0;
     margin-top: 40px;
   }
