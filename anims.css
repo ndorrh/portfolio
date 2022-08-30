@@ -20,7 +20,7 @@
     overflow: hidden;
   }
 
-  p {
+  .about-me-intro{
     animation-duration: 9s;
     animation-name: slidein;
     animation-iteration-count: 1;
