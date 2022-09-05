@@ -332,7 +332,7 @@ h4 {
   background-image: url(images/contact\ form-illustratoin-3-desktop.svg);
   background-repeat: no-repeat;
   background-size: 50px, 70px, 50px;
-  background-position: bottom left, left bottom, bottom right;
+  background-position: 0 100%, 20% 100%, 100% 100%;
 }
 
 .contact-message {
@@ -638,7 +638,7 @@ input:valid {
   }
 
   .my-work {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 370));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 370px));
     margin-left: 10px;
     margin-right: 10px;
   }
