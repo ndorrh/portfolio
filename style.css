@@ -26,6 +26,26 @@ body {
 /* Styling the header section (tool bar) */
 .header {
   margin: 30px;
+  position: relative;
+}
+
+.closed {
+  position: absolute;
+  top: 0;
+  right:0;
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left:0;
+}
+
+.hamburger-menu{
+  position: absolute;
+  right:0;
+  top:0;
 }
 
 .navbar {
@@ -224,8 +244,7 @@ body {
 }
 
 .about-text-container {
-  background-image:
-    url(images/desktop/about-top.svg),
+  background-image: url(images/desktop/about-top.svg),
     url(images/desktop/about\ 1.png);
   background-repeat: no-repeat;
   background-size: 50px, 50px;
@@ -572,8 +591,7 @@ input:valid {
   }
 
   .about-text-container {
-    background-image:
-      url(images/desktop/about-top.svg),
+    background-image: url(images/desktop/about-top.svg),
       url(images/desktop/about\ 1.png);
     background-repeat: no-repeat;
     background-size: 400px, 300;
@@ -581,8 +599,7 @@ input:valid {
   }
 
   .contact {
-    background-image:
-      url(images/illustration-1-contact-form-desktop.svg),
+    background-image: url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -687,8 +704,7 @@ input:valid {
   }
 
   .contact {
-    background-image:
-      url(images/illustration-1-contact-form-desktop.svg),
+    background-image: url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -732,8 +748,7 @@ input:valid {
   }
 
   .contact {
-    background-image:
-      url(images/illustration-1-contact-form-desktop.svg),
+    background-image: url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -781,8 +796,7 @@ input:valid {
   }
 
   .contact {
-    background-image:
-      url(images/illustration-1-contact-form-desktop.svg),
+    background-image: url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -830,8 +844,7 @@ input:valid {
   }
 
   .contact {
-    background-image:
-      url(images/illustration-1-contact-form-desktop.svg),
+    background-image: url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
