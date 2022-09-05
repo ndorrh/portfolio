@@ -12,4 +12,13 @@ hamburger.addEventListener('click', function (){
     }
 })
 
+closeBtn.addEventListener('click', function (){
+    if(navList.style.display = 'block'){
+        navList.style.display = 'none'
+        closeBtn.style.display = 'none'
+        hamburger.style.display = "block" 
+        logo.style.display = "block" 
+    }
+})
+
 
