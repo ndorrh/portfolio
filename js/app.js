@@ -21,4 +21,13 @@ closeBtn.addEventListener('click', function (){
     }
 })
 
+navList.addEventListener('click', function () {
+    if (navList.style.display = 'block') {
+        navList.style.display = 'none'
+        closeBtn.style.display = 'none'
+        hamburger.style.display = "block"
+        logo.style.display = "block"
+    }
+})
+
 
