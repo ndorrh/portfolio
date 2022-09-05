@@ -10,20 +10,34 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="anims.css">
+    <link rel="stylesheet" href="anims.css" />
   </head>
   <body>
     <!--Header Section (Toolbar)-->
     <header class="header backgrnd-clr">
+      <a href="index.html" class="logo">Welcome</a>
+        <img
+          class="hamburger-menu"
+          src="images/Union.png"
+          alt="hamburger-menu"
+        />
+         <img
+          class="close"
+          src="images/Icon-Cancel.png"
+          alt="cancel icon"
+        />
       <nav class="navbar">
-        <a href="index.html" class="logo">Welcome</a>
-        <img class="hamburger-menu" src="images/icons/Union.png" alt="hamburger-menu" />
         <ul class="navlist">
-          <li class="navitem"><a class="navlinks" href="#work">Portfolio</a></li>
+          <li class="navitem">
+            <a class="navlinks" href="#work">Portfolio</a>
+          </li>
           <li class="navitem"><a class="navlinks" href="#about">About</a></li>
-          <li class="navitem"><a class="navlinks" href="#contact">contact</a></li>
+          <li class="navitem">
+            <a class="navlinks" href="#contact">contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -32,7 +46,7 @@
       <section class="head-line backgrnd-clr">
         <h2 class="greeting greeting-text headline-box">
           Hey there. I’m <br class="break" />
-          <span class="ma">Mariane</span>  <span class="Al">Alex</span>
+          <span class="ma">Mariane</span> <span class="Al">Alex</span>
           <span class="text-color">I’m a software developer</span>
         </h2>
         <p class="supportig-text headline-box">
@@ -60,7 +74,9 @@
             ><img src="images/icons/angellist.svg" alt="angellist"
           /></a>
         </div>
-        <button class="disable" type="button" disabled><img src="images/desktop/Disabled.png" alt="drop down"></button>
+        <button class="disable" type="button" disabled>
+          <img src="images/desktop/Disabled.png" alt="drop down" />
+        </button>
       </section>
 
       <!--My Work section-->
@@ -284,9 +300,12 @@
           /></a>
         </div>
         <div class="email">
-          <a class="address-style" href="myemailhere@email.com">myemailhere@email.com</a>
+          <a class="address-style" href="myemailhere@email.com"
+            >myemailhere@email.com</a
+          >
         </div>
       </footer>
     </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
