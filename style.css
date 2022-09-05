@@ -29,23 +29,41 @@ body {
   position: relative;
 }
 
+.navlist{
+  list-style:none;
+  height: 100vh;
+}
+
+.navitem {
+  margin: 2em 0;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color:#3A4A42;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
 .closed {
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
   display: none;
 }
 
 .logo {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   position: absolute;
-  right:0;
-  top:0;
+  right: 0;
+  top: 0;
 }
 
 .navbar {
@@ -408,11 +426,9 @@ textarea {
   text-decoration: none;
 }
 
-a,
-a:visited,
 a:hover,
 a:active {
-  color: inherit;
+  color:#36b37f;
 }
 
 .sbtn {
@@ -461,9 +477,24 @@ input:valid {
   .ma,
   .wb,
   .line,
-  .email {
+  .email,
+  .closed {
     display: none;
   }
+
+   a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color:#3A4A42;
+
+  }
+
+  .navitem {
+    margin: 0 1em;
+  }
+
 
   .Al {
     display: inline;
@@ -479,6 +510,7 @@ input:valid {
     width: 100%;
     gap: 2%;
     list-style: none;
+    height: auto;
   }
 
   .navlinks {
