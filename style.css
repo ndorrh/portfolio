@@ -29,8 +29,8 @@ body {
   position: relative;
 }
 
-.navlist{
-  list-style:none;
+.navlist {
+  list-style: none;
   height: 100vh;
 }
 
@@ -41,7 +41,7 @@ body {
 
 a {
   text-decoration: none;
-  color:#3A4A42;
+  color: #3a4a42;
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
@@ -52,12 +52,6 @@ a {
   top: 0;
   right: 0;
   display: none;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .hamburger-menu {
@@ -262,7 +256,8 @@ a {
 }
 
 .about-text-container {
-  background-image: url(images/desktop/about-top.svg),
+  background-image:
+    url(images/desktop/about-top.svg),
     url(images/desktop/about\ 1.png);
   background-repeat: no-repeat;
   background-size: 50px, 50px;
@@ -354,6 +349,9 @@ h4 {
   width: 90px;
   height: 28px;
   text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* contact form styling */
@@ -428,7 +426,7 @@ textarea {
 
 a:hover,
 a:active {
-  color:#36b37f;
+  color: #36b37f;
 }
 
 .sbtn {
@@ -482,19 +480,17 @@ input:valid {
     display: none;
   }
 
-   a {
+  a {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
-    color:#3A4A42;
-
+    color: #3a4a42;
   }
 
   .navitem {
     margin: 0 1em;
   }
-
 
   .Al {
     display: inline;
@@ -623,7 +619,8 @@ input:valid {
   }
 
   .about-text-container {
-    background-image: url(images/desktop/about-top.svg),
+    background-image:
+      url(images/desktop/about-top.svg),
       url(images/desktop/about\ 1.png);
     background-repeat: no-repeat;
     background-size: 400px, 300;
@@ -631,7 +628,8 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -736,7 +734,8 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -780,7 +779,8 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -828,7 +828,8 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
@@ -876,7 +877,8 @@ input:valid {
   }
 
   .contact {
-    background-image: url(images/illustration-1-contact-form-desktop.svg),
+    background-image:
+      url(images/illustration-1-contact-form-desktop.svg),
       url(images/illustration-2-contact-form-desktop.svg),
       url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
