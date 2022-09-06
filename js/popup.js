@@ -4,7 +4,7 @@ const popUp = document.getElementById('work-popup');
 const projects = [
     {
         id: 1,
-        name: 'Multi-Post Stories <br />Gain+Glory',
+        name: 'Multi-Post Stories XXXX <br />Gain+Glory',
         projectDescription: 'zcboajfbaf joadofbsdbas',
         feauturedImage: 'url(\'images/brithday.png\')',
         technologies: {
@@ -117,6 +117,22 @@ projectContainer.appendChild(div1);
 addInnerHtmlAndApendToParent('', projectContainer, div2);
 
 
+const sectionPopup = createElementWithIdAndClassName('section', 'project project-text', 'project');
+const div3Popup = createElementWithIdAndClassName('div', 'project-title', 'title');
+const projectNamePopup = createElementWithIdAndClassName('h4', 'project-name', 'project_name');
+const technologyPopup = createElementWithIdAndClassName('ul', 'langues-use', 'technology');
+const technologyItem1Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
+const technologyItem2Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
+const technologyItem3Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
+const technologyItem4Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
+const seeProjectBtnPopup = createElementWithIdAndClassName('button', 'see-project', 'project-btn');
+const closeBttn = createElementWithIdAndClassName('i', 'fa fa-times', 'closeddds');
+addInnerHtmlAndApendToParent('', popUp, closeBttn)
+addInnerHtmlAndApendToParent('', popUp, sectionPopup);
+addInnerHtmlAndApendToParent('', sectionPopup, div3Popup);
+addInnerHtmlAndApendToParent('See Project', div3Popup, seeProjectBtnPopup);
+addInnerHtmlAndApendToParent('', div3Popup, technologyPopup);
+
 projects.forEach((i) => {
 
 
@@ -143,20 +159,24 @@ projects.forEach((i) => {
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technology, technologyItem3);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.markUP}`, technology, technologyItem4);
     addInnerHtmlAndApendToParent('See Project', div3, seeProjectBtn);
+    
     seeProjectBtn.addEventListener('click', () => {
-        addInnerHtmlAndApendToParent('', popUp, section);
-        addInnerHtmlAndApendToParent('', section, div3);
-        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].name}`, div3, projectName);
-        addInnerHtmlAndApendToParent('', div3, technology);
-        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.backend}`, technology, technologyItem1);
-        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.style}`, technology, technologyItem2);
-        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technology, technologyItem3);
-        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.markUP}`, technology, technologyItem4);
+        sectionPopup.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImage}`;
+        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].name}`, div3Popup, projectNamePopup);
+        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.backend}`, technologyPopup, technologyItem1Popup);
+        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.style}`, technologyPopup, technologyItem2Popup);
+        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technologyPopup, technologyItem3Popup);
+        addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.markUP}`, technologyPopup, technologyItem4Popup);
         popUp.style.display = 'block';
-        popUp.style.border = 'solid';
         projectContainer.style.display = 'none';
-
-        alert('Its working');
     });
+
+});
+
+
+
+closeBttn.addEventListener('click', () => {
+    popUp.style.display = 'none';
+    projectContainer.style.display = 'block';
 });
 
