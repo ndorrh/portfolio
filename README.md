@@ -8,11 +8,15 @@
 2. My Work Section.
 3. The About Me section.
 4. The contact form section
+5. Added animation
+6. Added the Mobile menu using javascript
+
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 <a href="https://ndorrh.github.io/portfolio/">Live Demo Link</a>
