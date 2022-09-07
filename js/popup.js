@@ -8,6 +8,8 @@ const projects = [
     projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -120,21 +122,22 @@ addInnerHtmlAndApendToParent('', projectContainer, div2);
 const feauturedImageContainer = createElementWithIdAndClassName('div', 'featured-image-container', 'images');
 const sectionPopup = createElementWithIdAndClassName('section', 'project1 project-text1', 'project1');
 const div3Popup = createElementWithIdAndClassName('div', 'project-title1', 'title1');
-const projectNamePopup = createElementWithIdAndClassName('h4', 'project-name', 'project_name');
-const technologyPopup = createElementWithIdAndClassName('ul', 'langues-use', 'technology');
+const projectNamePopup = createElementWithIdAndClassName('h4', 'project-name', 'project_name1');
+const technologyPopup = createElementWithIdAndClassName('ul', 'langues-use', 'technologypopUp');
 const technologyItem1Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem2Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem3Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem4Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const seelive = createElementWithIdAndClassName('button', 'see-project', 'project-btn1');
 const projectDetails = createElementWithIdAndClassName('p', 'project-details', 'details');
-
+const liveAndSourceBtn = createElementWithIdAndClassName('div', 'live-source', 'live');
 const seeSource = createElementWithIdAndClassName('button', 'see-project', 'project-btn');
 const closeBttn = createElementWithIdAndClassName('i', 'fa fa-times', 'closeddds');
 addInnerHtmlAndApendToParent('', popUp, closeBttn);
 addInnerHtmlAndApendToParent('', popUp, sectionPopup);
 addInnerHtmlAndApendToParent('', sectionPopup, feauturedImageContainer);
 addInnerHtmlAndApendToParent('', sectionPopup, div3Popup);
+addInnerHtmlAndApendToParent('', sectionPopup, liveAndSourceBtn);
 addInnerHtmlAndApendToParent('', sectionPopup, technologyPopup);
 
 projects.forEach((i) => {
@@ -160,10 +163,10 @@ projects.forEach((i) => {
   addInnerHtmlAndApendToParent('See Project', div3, seeProjectBtn);
 
   seeProjectBtn.addEventListener('click', () => {
-    feauturedImageContainer.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImage}`;
+    feauturedImageContainer.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImageDeskTop}`;
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].name}`, div3Popup, projectNamePopup);
-    addInnerHtmlAndApendToParent('See live', div3Popup, seelive);
-    addInnerHtmlAndApendToParent('See Source', div3Popup, seeSource);
+    addInnerHtmlAndApendToParent('See live', liveAndSourceBtn, seelive);
+    addInnerHtmlAndApendToParent('See Source', liveAndSourceBtn, seeSource);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.backend}`, technologyPopup, technologyItem1Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.style}`, technologyPopup, technologyItem2Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technologyPopup, technologyItem3Popup);
