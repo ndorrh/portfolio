@@ -776,7 +776,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 1680px) {
+@media screen and (min-width: 1680px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
   }
@@ -825,7 +825,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 2080px) {
+@media screen and (min-width: 2080px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
   }
@@ -874,7 +874,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
   }
@@ -923,9 +923,133 @@ input:valid {
   }
 }
 
-#work-popup{
+#work-popup {
+  padding: 3%;
   display: none;
-  height:100vh;
-  width:90%;
-  margin: 5%;
+  height: 100vh;
+  width: 100%;
+  margin-left: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+body {
+  position: relative;
+}
+
+.featured-image-container {
+  width: 94%;
+  height: 75%;
+  background-repeat: no-repeat;
+  background-size: 98% 99%;
+  background-position: 50% 0;
+}
+
+#project1 {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#title1 {
+  width: content;
+  justify-content: flex-start;
+}
+
+#live {
+  width: 62.7%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+}
+
+#closeddds {
+  display: block;
+  position: absolute;
+  top: 3%;
+  right: 7%;
+  background-color: #c1c7d0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+#details {
+  width: 93%;
+}
+
+#technologypopUp {
+  margin-right: 77%;
+}
+
+@media screen and (max-width: 1024px) {
+  #technologypopUp {
+    margin-right: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #live {
+    order: 3;
+    width: 93%;
+    justify-content: space-between;
+  }
+
+  .featured-image-container {
+    width: 94%;
+    height: 55%;
+  }
+
+  #technologypopUp {
+    margin-right: 55%;
+  }
+
+  #title1 {
+    margin-right: 43%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .featured-image-container {
+    width: 94%;
+    height: 30%;
+  }
+
+  #technologypopUp {
+    margin-right: 24%;
+  }
+
+  #title1 {
+    margin-right: 6%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .featured-image-container {
+    width: 94%;
+    height: 25%;
+  }
+
+  #technologypopUp {
+    margin-right: 18%;
+  }
+
+  #title1 {
+    margin-right: 5%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .featured-image-container {
+    width: 94%;
+    height: 20%;
+  }
+
+  #technologypopUp {
+    margin-right: 10%;
+  }
 }

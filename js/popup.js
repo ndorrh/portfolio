@@ -4,9 +4,12 @@ const popUp = document.getElementById('work-popup');
 const projects = [
   {
     id: 1,
-    name: 'Multi-Post Stories XXXX <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -19,9 +22,11 @@ const projects = [
 
   {
     id: 2,
-    name: 'Multi-Post Stories <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -34,9 +39,11 @@ const projects = [
 
   {
     id: 3,
-    name: 'Multi-Post Stories <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -49,9 +56,11 @@ const projects = [
 
   {
     id: 4,
-    name: 'Multi-Post Stories <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -64,9 +73,11 @@ const projects = [
 
   {
     id: 5,
-    name: 'Multi-Post Stories <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -79,9 +90,11 @@ const projects = [
 
   {
     id: 6,
-    name: 'Multi-Post Stories <br />Gain+Glory',
-    projectDescription: 'zcboajfbaf joadofbsdbas',
+    name: 'Multi-Post Stories  Gain+Glory',
+    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     feauturedImage: 'url(\'images/brithday.png\')',
+    feauturedImageMobile: 'url(\'images/mobileport.png\')',
+    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -116,21 +129,26 @@ addInnerHtmlAndApendToParent('', div1, line);
 projectContainer.appendChild(div1);
 addInnerHtmlAndApendToParent('', projectContainer, div2);
 
-const sectionPopup = createElementWithIdAndClassName('section', 'project project-text', 'project');
-const div3Popup = createElementWithIdAndClassName('div', 'project-title', 'title');
-const projectNamePopup = createElementWithIdAndClassName('h4', 'project-name', 'project_name');
-const technologyPopup = createElementWithIdAndClassName('ul', 'langues-use', 'technology');
+const feauturedImageContainer = createElementWithIdAndClassName('div', 'featured-image-container', 'images');
+const sectionPopup = createElementWithIdAndClassName('section', 'project1 project-text1', 'project1');
+const div3Popup = createElementWithIdAndClassName('div', 'project-title1', 'title1');
+const projectNamePopup = createElementWithIdAndClassName('h4', 'project-name', 'project_name1');
+const technologyPopup = createElementWithIdAndClassName('ul', 'langues-use', 'technologypopUp');
 const technologyItem1Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem2Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem3Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem4Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
-const seeProjectBtnPopup = createElementWithIdAndClassName('button', 'see-project', 'project-btn');
+const seelive = createElementWithIdAndClassName('button', 'see-project', 'project-btn1');
+const projectDetails = createElementWithIdAndClassName('p', 'project-details', 'details');
+const liveAndSourceBtn = createElementWithIdAndClassName('div', 'live-source', 'live');
+const seeSource = createElementWithIdAndClassName('button', 'see-project', 'project-btn');
 const closeBttn = createElementWithIdAndClassName('i', 'fa fa-times', 'closeddds');
 addInnerHtmlAndApendToParent('', popUp, closeBttn);
 addInnerHtmlAndApendToParent('', popUp, sectionPopup);
+addInnerHtmlAndApendToParent('', sectionPopup, feauturedImageContainer);
 addInnerHtmlAndApendToParent('', sectionPopup, div3Popup);
-addInnerHtmlAndApendToParent('See Project', div3Popup, seeProjectBtnPopup);
-addInnerHtmlAndApendToParent('', div3Popup, technologyPopup);
+addInnerHtmlAndApendToParent('', sectionPopup, liveAndSourceBtn);
+addInnerHtmlAndApendToParent('', sectionPopup, technologyPopup);
 
 projects.forEach((i) => {
   const section = createElementWithIdAndClassName('section', 'project project-text', 'project');
@@ -155,12 +173,15 @@ projects.forEach((i) => {
   addInnerHtmlAndApendToParent('See Project', div3, seeProjectBtn);
 
   seeProjectBtn.addEventListener('click', () => {
-    sectionPopup.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImage}`;
+    feauturedImageContainer.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImageDeskTop}`;
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].name}`, div3Popup, projectNamePopup);
+    addInnerHtmlAndApendToParent('See live', liveAndSourceBtn, seelive);
+    addInnerHtmlAndApendToParent('See Source', liveAndSourceBtn, seeSource);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.backend}`, technologyPopup, technologyItem1Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.style}`, technologyPopup, technologyItem2Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technologyPopup, technologyItem3Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.markUP}`, technologyPopup, technologyItem4Popup);
+    addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].projectDescription}`, sectionPopup, projectDetails);
     popUp.style.display = 'block';
     projectContainer.style.display = 'none';
   });
