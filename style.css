@@ -776,7 +776,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 1680px) {
+@media screen and (min-width: 1680px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
   }
@@ -825,7 +825,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 2080px) {
+@media screen and (min-width: 2080px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
   }
@@ -874,7 +874,7 @@ input:valid {
   }
 }
 
-@media only screen and (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
   .my-work {
     grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
   }
@@ -990,6 +990,23 @@ body{
 margin-right: 77%;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  #live{
+    order:3;
+    width: 93%;
+    justify-content: space-between;
+  }
   
+  .featured-image-container{
+  width: 94%;
+  height:50%;
+  background-repeat: no-repeat;
+  background-size: 98% 99%;
+  background-position: 50% 0;
+}
+
+#technologypopUp{
+margin-right:19%;
+}
+
 }
