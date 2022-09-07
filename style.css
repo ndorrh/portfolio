@@ -927,5 +927,44 @@ input:valid {
   display: none;
   height:100vh;
   width:90%;
-  margin: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:white;
+}
+
+body{
+   position: relative;
+}
+
+.featured-image-container{
+  width: 100%;
+  height:75%;
+  background-repeat: no-repeat;
+  background-size: 98% 99%;
+  background-position: 50% 0;
+}
+
+#project1{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#title1{
+  display: flex;
+  gap: 2%;
+}
+
+#project-btn1{
+  margin-left: 50%;
+}
+
+#project-name{
+  text-align: left; 
+}
+.br{
+  display: none;
 }
