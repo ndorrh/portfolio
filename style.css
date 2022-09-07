@@ -926,5 +926,6 @@ input:valid {
 #work-popup{
   display: none;
   height:100vh;
-  width:50%;
+  width:90%;
+  margin: 5%;
 }
