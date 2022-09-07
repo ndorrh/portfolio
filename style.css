@@ -956,7 +956,6 @@ body{
 
 #title1{
   width:content;
-  text-align: left;
   justify-content: flex-start;
 }
 
@@ -965,10 +964,6 @@ body{
   display:flex;
   justify-content: flex-end;
   gap: 2%;
-}
-
-#project-name{
-  text-align: lft; 
 }
 
 #closeddds{
@@ -990,6 +985,13 @@ body{
 margin-right: 77%;
 }
 
+@media screen and (max-width: 1024px) {
+#technologypopUp{
+margin-right:70%;
+}
+
+}
+
 @media screen and (max-width: 768px) {
   #live{
     order:3;
@@ -999,14 +1001,60 @@ margin-right: 77%;
   
   .featured-image-container{
   width: 94%;
-  height:50%;
-  background-repeat: no-repeat;
-  background-size: 98% 99%;
-  background-position: 50% 0;
+  height:55%;
 }
 
 #technologypopUp{
-margin-right:19%;
+margin-right:55%;
 }
 
+#title1{
+  margin-right: 43%;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  
+  .featured-image-container{
+  width: 94%;
+  height:30%;
+}
+
+#technologypopUp{
+margin-right:24%;
+}
+
+#title1{
+  margin-right: 6%;
+}
+}
+
+@media screen and (max-width: 375px) {
+  
+  .featured-image-container{
+  width: 94%;
+  height:25%;
+}
+
+#technologypopUp{
+margin-right:18%;
+}
+
+#title1{
+  margin-right: 5%;
+  text-align: left;
+}
+}
+
+@media screen and (max-width: 320px) {
+  
+  .featured-image-container{
+  width: 94%;
+  height:20%;
+}
+
+#technologypopUp{
+margin-right:10%;
+}
 }
