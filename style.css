@@ -923,53 +923,53 @@ input:valid {
   }
 }
 
-#work-popup{
+#work-popup {
   padding: 3%;
   display: none;
-  height:100vh;
-  width:100%;
-  margin-left:auto;
+  height: 100vh;
+  width: 100%;
+  margin-left: auto;
   position: fixed;
   top: 0;
   left: 0;
-  background-color:white;
+  background-color: white;
 }
 
-body{
-   position: relative;
+body {
+  position: relative;
 }
 
-.featured-image-container{
+.featured-image-container {
   width: 94%;
-  height:75%;
+  height: 75%;
   background-repeat: no-repeat;
   background-size: 98% 99%;
   background-position: 50% 0;
 }
 
-#project1{
-  height:100%;
+#project1 {
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-#title1{
-  width:content;
+#title1 {
+  width: content;
   justify-content: flex-start;
 }
 
-#live{
-  width:62.7%;
-  display:flex;
+#live {
+  width: 62.7%;
+  display: flex;
   justify-content: flex-end;
   gap: 2%;
 }
 
-#closeddds{
+#closeddds {
   display: block;
   position: absolute;
-  top:3%;
+  top: 3%;
   right: 7%;
   background-color: #c1c7d0;
   width: 20px;
@@ -977,84 +977,79 @@ body{
   text-align: center;
 }
 
-#details{
+#details {
   width: 93%;
 }
 
-#technologypopUp{
-margin-right: 77%;
+#technologypopUp {
+  margin-right: 77%;
 }
 
 @media screen and (max-width: 1024px) {
-#technologypopUp{
-margin-right:70%;
-}
-
+  #technologypopUp {
+    margin-right: 70%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #live{
-    order:3;
+  #live {
+    order: 3;
     width: 93%;
     justify-content: space-between;
   }
-  
-  .featured-image-container{
-  width: 94%;
-  height:55%;
-}
 
-#technologypopUp{
-margin-right:55%;
-}
+  .featured-image-container {
+    width: 94%;
+    height: 55%;
+  }
 
-#title1{
-  margin-right: 43%;
-}
+  #technologypopUp {
+    margin-right: 55%;
+  }
 
+  #title1 {
+    margin-right: 43%;
+  }
 }
 
 @media screen and (max-width: 425px) {
-  
-  .featured-image-container{
-  width: 94%;
-  height:30%;
-}
+  .featured-image-container {
+    width: 94%;
+    height: 30%;
+  }
 
-#technologypopUp{
-margin-right:24%;
-}
+  #technologypopUp {
+    margin-right: 24%;
+  }
 
-#title1{
-  margin-right: 6%;
-}
+  #title1 {
+    margin-right: 6%;
+  }
 }
 
 @media screen and (max-width: 375px) {
-  
-  .featured-image-container{
-  width: 94%;
-  height:25%;
-}
+  .featured-image-container {
+    width: 94%;
+    height: 25%;
+  }
 
-#technologypopUp{
-margin-right:18%;
-}
+  #technologypopUp {
+    margin-right: 18%;
+  }
 
-#title1{
-  margin-right: 5%;
-  text-align: left;
-}
+  #title1 {
+    margin-right: 5%;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  
-  .featured-image-container{
-  width: 94%;
-  height:20%;
-}
+  .featured-image-container {
+    width: 94%;
+    height: 20%;
+  }
 
-#technologypopUp{
-margin-right:10%;
-}
+  #technologypopUp {
+    margin-right: 10%;
+  }
 }
