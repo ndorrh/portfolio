@@ -22,3 +22,7 @@ if (!localStorage.getItem('formDetails')) {
 } else {
   setInput();
 }
+
+document.getElementById('name').onchange = populateStorage;
+document.getElementById('email').onchange = populateStorage;
+document.getElementById('message').onchange = populateStorage;
