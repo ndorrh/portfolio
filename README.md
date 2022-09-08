@@ -23,6 +23,8 @@ You don't need to download the project and install it you can fully interact wit
 11. A valid email address without capital letters
 12. Fill all input fields correctly for the form to be submitted
 
+>Any data you input in the form will be preserve  in the browser
+
 ## Built With
 
 - HTML
