@@ -1053,3 +1053,13 @@ body {
     margin-right: 10%;
   }
 }
+
+#error {
+  color: red;
+  width: 200px;
+}
+
+#error-mail {
+  color: red;
+  font-size: smaller;
+}
