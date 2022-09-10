@@ -67,7 +67,7 @@ const projects = [
       frontEnd: 'JavaScript',
       markUP: 'HTML',
     },
-    linkToLiveVersion: 'https://ndorrh.github.io/portfolio/',
+    linkToLiveVersion: 'https://twitter.com/ndorrh',
     linkToSource: 'https://github.com/ndorrh/portfolio',
   },
 
@@ -120,6 +120,12 @@ const addInnerHtmlAndApendToParent = (text, parent, child) => {
   return parent;
 };
 
+const addLinkToModalButtons = (link) => {
+  const aTag = document.createElement('a');
+  aTag.setAttribute('href', link);
+  aTag.click();
+};
+
 const div1 = createElementWithIdAndClassName('div', 'work-intro-container', 'intro');
 const head = createElementWithIdAndClassName('h2', 'work-intro', 'intro-text');
 const line = createElementWithIdAndClassName('span', 'line', 'line');
@@ -138,10 +144,10 @@ const technologyItem1Popup = createElementWithIdAndClassName('li', 'language', '
 const technologyItem2Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem3Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
 const technologyItem4Popup = createElementWithIdAndClassName('li', 'language', 'technology-item');
-const seelive = createElementWithIdAndClassName('button', 'see-project', 'project-btn1');
+const seelive = createElementWithIdAndClassName('button', 'see-project', 'live-demo');
 const projectDetails = createElementWithIdAndClassName('p', 'project-details', 'details');
 const liveAndSourceBtn = createElementWithIdAndClassName('div', 'live-source', 'live');
-const seeSource = createElementWithIdAndClassName('button', 'see-project', 'project-btn');
+const seeSource = createElementWithIdAndClassName('button', 'see-project', 'source');
 const closeBttn = createElementWithIdAndClassName('i', 'fa fa-times', 'closeddds');
 addInnerHtmlAndApendToParent('', popUp, closeBttn);
 addInnerHtmlAndApendToParent('', popUp, sectionPopup);
@@ -182,6 +188,14 @@ projects.forEach((i) => {
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technologyPopup, technologyItem3Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.markUP}`, technologyPopup, technologyItem4Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].projectDescription}`, sectionPopup, projectDetails);
+
+    seelive.addEventListener('click', () => {
+      addLinkToModalButtons(projects[projects.indexOf(i)].linkToLiveVersion);
+    });
+    seeSource.addEventListener('click', () => {
+      addLinkToModalButtons(projects[projects.indexOf(i)].linkToSource);
+    });
+
     popUp.style.display = 'block';
     projectContainer.style.display = 'none';
   });
