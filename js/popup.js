@@ -1,6 +1,5 @@
 const projectContainer = document.getElementById('work');
 const popUp = document.getElementById('work-popup');
-
 const projects = [
   {
     id: 1,
@@ -126,6 +125,12 @@ const addLinkToModalButtons = (link) => {
   aTag.click();
 };
 
+const addIcon = (link) => {
+  const icon = document.createElement('img');
+  icon.src = link;
+  return icon;
+};
+
 const div1 = createElementWithIdAndClassName('div', 'work-intro-container', 'intro');
 const head = createElementWithIdAndClassName('h2', 'work-intro', 'intro-text');
 const line = createElementWithIdAndClassName('span', 'line', 'line');
@@ -134,7 +139,6 @@ addInnerHtmlAndApendToParent('My Recent <br class="wb" />Works', div1, head);
 addInnerHtmlAndApendToParent('', div1, line);
 projectContainer.appendChild(div1);
 addInnerHtmlAndApendToParent('', projectContainer, div2);
-
 const feauturedImageContainer = createElementWithIdAndClassName('div', 'featured-image-container', 'images');
 const sectionPopup = createElementWithIdAndClassName('section', 'project1 project-text1', 'project1');
 const div3Popup = createElementWithIdAndClassName('div', 'project-title1', 'title1');
@@ -148,6 +152,7 @@ const seelive = createElementWithIdAndClassName('button', 'see-project', 'live-d
 const projectDetails = createElementWithIdAndClassName('p', 'project-details', 'details');
 const liveAndSourceBtn = createElementWithIdAndClassName('div', 'live-source', 'live');
 const seeSource = createElementWithIdAndClassName('button', 'see-project', 'source');
+
 const closeBttn = createElementWithIdAndClassName('i', 'fa fa-times', 'closeddds');
 addInnerHtmlAndApendToParent('', popUp, closeBttn);
 addInnerHtmlAndApendToParent('', popUp, sectionPopup);
@@ -182,7 +187,9 @@ projects.forEach((i) => {
     feauturedImageContainer.style.backgroundImage = `${projects[projects.indexOf(i)].feauturedImageDeskTop}`;
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].name}`, div3Popup, projectNamePopup);
     addInnerHtmlAndApendToParent('See live', liveAndSourceBtn, seelive);
-    addInnerHtmlAndApendToParent('See Source', liveAndSourceBtn, seeSource);
+    addInnerHtmlAndApendToParent('', seelive, addIcon('images/liveDemo.svg'));
+    addInnerHtmlAndApendToParent('See Source  ', liveAndSourceBtn, seeSource);
+    addInnerHtmlAndApendToParent('', seeSource, addIcon('images/gitIcon.png'));
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.backend}`, technologyPopup, technologyItem1Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.style}`, technologyPopup, technologyItem2Popup);
     addInnerHtmlAndApendToParent(`${projects[projects.indexOf(i)].technologies.frontEnd}`, technologyPopup, technologyItem3Popup);
