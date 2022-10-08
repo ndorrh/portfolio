@@ -3,12 +3,12 @@ const popUp = document.getElementById('work-popup');
 const projects = [
   {
     id: 1,
-    name: 'Multi-Post Stories  Gain+Glory',
-    projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'Todo list',
+    projectDescription: 'This project is a part of microverse training program. It was build using HTML5, CSS, JavaScript and webpack. It is a web application that creates a To do list',
 
-    feauturedImage: 'url(\'images/brithday.png\')',
-    feauturedImageMobile: 'url(\'images/mobileport.png\')',
-    feauturedImageDeskTop: 'url(\'images/desktop.png\')',
+    feauturedImage: 'url(\'images/Todolist.png\')',
+    feauturedImageMobile: 'url(\'images/Todolist.png\')',
+    feauturedImageDeskTop: 'url(\'images/Todolist.png\')',
     technologies: {
       backend: 'Ruby on rails',
       style: 'CSS',
@@ -66,8 +66,8 @@ const projects = [
       frontEnd: 'JavaScript',
       markUP: 'HTML',
     },
-    linkToLiveVersion: 'https://twitter.com/ndorrh',
-    linkToSource: 'https://github.com/ndorrh/portfolio',
+    linkToLiveVersion: 'https://ndorrh.github.io/To_do_list/',
+    linkToSource: 'https://github.com/ndorrh/To_do_list',
   },
 
   {
