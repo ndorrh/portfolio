@@ -15,8 +15,8 @@ const projects = [
       frontEnd: 'JavaScript',
       markUP: 'HTML',
     },
-    linkToLiveVersion: 'https://ndorrh.github.io/portfolio/',
-    linkToSource: 'https://github.com/ndorrh/portfolio',
+    linkToLiveVersion: 'https://ndorrh.github.io/To_do_list/',
+    linkToSource: 'https://github.com/ndorrh/To_do_list',
   },
 
   {
